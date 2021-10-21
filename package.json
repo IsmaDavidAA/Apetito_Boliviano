@@ -1,0 +1,16 @@
+{
+  "name": "just_a_simple_name",
+  "version": "1.0.0",
+  "description": "this is just a simple project to my subject \"programacion web\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Ismael David Angulo Andrade",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
