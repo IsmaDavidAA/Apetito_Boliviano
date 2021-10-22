@@ -17,21 +17,21 @@
 }
 .tarjeta_plato {
   color: var(--second);
-  border-color: 20px var(--second);
+  border-color: var(--second);
 }
 .tema_postre {
   background-color: var(--third);
 }
 .tarjeta_postre {
   color: var(--third);
-  border-color: 20px var(--third);
+  border-color: var(--third);
 }
 .tema_bebida {
   background-color: var(--fourth);
 }
 .tarjeta_bebida {
   color: var(--fourth);
-  border-color: 20px var(--fourth);
+  border-color: var(--fourth);
 }
 header {
   color: var(--first);
