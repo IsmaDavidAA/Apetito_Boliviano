@@ -55,13 +55,12 @@ header {
 .logo {
   height: 60%;
 }
-.secciones a div {
+.secciones a {
   height: 33.3%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .container {
   min-height: 100vh;
   width: 100%;
@@ -152,12 +151,12 @@ header {
   height: 100%;
 }
 
-.secciones a div:hover {
+.secciones a:hover {
   width: 200%;
   border-top-right-radius: 10%;
   border-bottom-right-radius: 10%;
 }
-.secciones a *:active {
+.secciones a:active {
   background-color: var(--first);
 }
 
@@ -203,7 +202,7 @@ header {
     left: 0%;
     right: 0%;
     bottom: 0%;
-    top: 90%;
+    top: 91.6%;
     height: 180px;
     width: 100%;
     display: flex;
@@ -215,7 +214,7 @@ header {
     width: 33.33%;
   }
 
-  .secciones a div:hover {
+  .secciones a:hover {
     width: 100%;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
