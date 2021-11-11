@@ -1,18 +1,19 @@
 :root {
-  --first: #e4f9ff;
+  /* --first: #e4f9ff;
   --second: #ff5722;
   --third: #845ec2;
   --fourth: #00bcd4;
-  --black: #565556;
+  --black: #565556; */
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Architects Daughter", cursive !important;
 }
 
-.tema_plato {
+/* .tema_plato {
   background-color: var(--second);
 }
 .tarjeta_plato {
@@ -21,20 +22,20 @@
 }
 .tema_postre {
   background-color: var(--third);
-}
+} 
 .tarjeta_postre {
   color: var(--third);
   border-color: var(--third);
 }
-.tema_bebida {
+.tema_bebida { 
   background-color: var(--fourth);
 }
 .tarjeta_bebida {
   color: var(--fourth);
   border-color: var(--fourth);
-}
+} */
 header {
-  color: var(--first);
+  /* color: var(--first); */
   position: fixed;
   left: 0;
   right: 0;
@@ -42,7 +43,7 @@ header {
   padding: 0.6rem 0;
   text-align: center;
   z-index: 10;
-  font-size: 0.9rem;
+  font-size: 0.9rem !important;
 }
 .secciones {
   position: fixed;
@@ -84,7 +85,7 @@ header {
 .titulo_elemento {
   text-align: center;
   margin: 10px 0px 50px 0px;
-  font-size: 2.3rem;
+  font-size: 2.3rem !important;
 }
 
 .primera_seccion_elemento {
@@ -122,10 +123,10 @@ header {
 }
 .descripcion_elemento p {
   font-size: 1.1rem;
-  color: var(--black);
+  /* color: var(--black); */
 }
 .descripcion_elemento ul {
-  color: var(--black);
+  /* color: var(--black); */
 }
 
 .detalles {
@@ -136,11 +137,11 @@ header {
 
 .detalles ul {
   padding-left: 2rem;
-  color: var(--black);
+  /* color: var(--black); */
 }
 .detalles ol {
   padding-left: 2rem;
-  color: var(--black);
+  /* color: var(--black); */
 }
 
 .video_elemento {
@@ -157,7 +158,7 @@ header {
   border-bottom-right-radius: 10%;
 }
 .secciones a:active {
-  background-color: var(--first);
+  /* background-color: var(--first); */
 }
 
 @media only screen and (max-width: 790px) {
