@@ -12,7 +12,7 @@
   height: 250px;
   width: 57px;
   top: 30%;
-  left: 1rem;
+  left: 0.5rem;
   z-index: 20;
 }
 .logo {
@@ -31,52 +31,27 @@
 .container {
   min-height: 100vh;
   width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 100px 0 0 0;
 }
 
-.lista_elementos ul {
-  margin: 1rem 2rem 0 2.72rem;
+ul {
   list-style: none;
+}
+
+.ingredientes ul {
+  list-style: disc;
 }
 
 .tarjeta_elemento {
   border-style: solid;
-  margin: 10px 0px 40px 30px;
-  padding: 0px 0px 30px 0px;
-}
-
-.titulo_elemento {
-  text-align: center;
-  margin: 10px 0px 50px 0px;
-  font-size: 2.3rem !important;
-}
-
-.primera_seccion_elemento {
-  display: flex;
-  padding: 5px;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  min-height: 350px;
 }
 
 .imagen {
   width: 100%;
-}
-
-.detalles {
-  padding-left: 2rem;
-  padding-top: 1rem;
-  width: 35%;
-}
-
-.detalles ul {
-  padding-left: 2rem;
-}
-.detalles ol {
-  padding-left: 2rem;
 }
 
 .video_elemento {
@@ -94,14 +69,8 @@
 }
 
 @media only screen and (max-width: 790px) {
-  .lista_elementos {
-    margin: 1rem 1rem 0rem 1rem;
-  }
-  .tarjeta_elemento {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px 40px 0px;
+  .secciones {
+    position: fixed;
+    z-index: 30;
   }
 }
